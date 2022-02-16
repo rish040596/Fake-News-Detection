@@ -13,6 +13,6 @@ PassiveAggressiveClassifier -
 Passive Aggressive algorithms are online learning algorithms. Such an algorithm remains passive for a correct classification outcome, and turns aggressive in the event of a miscalculation, updating and adjusting. Unlike most other algorithms, it does not converge. Its purpose is to make updates that correct the loss, causing very little change in the norm of the weight vector.
 
 Implementation -
-Using sklearn, we build a TfidfVectorizer on our dataset. Then, we initialize a PassiveAggressive Classifier and fit the model. In the end, the accuracy score and the confusion matrix tell us how well our model fares.
+Using sklearn, I have build a TfidfVectorizer on my dataset. Then, I initialize a PassiveAggressive Classifier and fit the model. In the end, the accuracy score and the confusion matrix indicate how well the model fares.
 
 Obtained Accuracy - 92.82%
